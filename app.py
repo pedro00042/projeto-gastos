@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.title("📊 Análise de Gastos Interativa")
+st.title("📊 Análise de Gastos")
 
 arquivo = st.file_uploader("Envie a planilha (.xlsx)", type="xlsx")
 
